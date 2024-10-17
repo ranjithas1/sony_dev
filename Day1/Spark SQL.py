@@ -1,5 +1,5 @@
 # Databricks notebook source
-# MAGIC %sql
+# MAGIC %sql %sql
 # MAGIC select * from file_format.'path'
 
 # COMMAND ----------
@@ -28,6 +28,7 @@
 
 # MAGIC %sql
 # MAGIC select * from customers_spark_sql
+# MAGIC
 
 # COMMAND ----------
 
